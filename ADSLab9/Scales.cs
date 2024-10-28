@@ -18,29 +18,17 @@ public class Scales : HillClimbing
         calculateFitness();
     }
 
+    // This method should calculate the fitness value for the solution. The value should be updated to the property i.e fitness.
     public void calculateFitness()
     {
-        double left=0.00, right=0.00;
-        for(int i=0; i<solSize; i++)
-        {
-            if(solution[i] == 0)
-                left += data[i];
-            else
-                right += data[i];
-        }
-        fitness =  Math.Abs(left-right);
+        // Write your prorgam here
+        
     }
 
+    // This method should create a new solution randomly. The value should be updated to the property i.e solution.
     public List<int> genRandomSol ()
     {
-        List<int> res = new List<int>();
-
-        Random r = new Random();
-        for (int i = 0; i < solSize; i++)
-        {
-            res.Add(r.Next(2));
-        }
-        return res; 
+        // Write your prorgam here
     }
 
     public void printSol()
