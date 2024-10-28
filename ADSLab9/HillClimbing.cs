@@ -11,7 +11,7 @@ public class HillClimbing
     public void runHC(int iter)
     {
 
-        // Create a new solution
+        // Create a soltion and a new solution
        
 
         // copy the existion solution to the new solution
