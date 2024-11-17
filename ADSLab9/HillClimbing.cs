@@ -16,7 +16,7 @@ public class HillClimbing
 
         // copy the existion solution to the new solution
 
-        // Start searching a solution
+        // Start searching solutions
         for (int i = 0; i<iter; i++)
         {   
             
