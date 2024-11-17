@@ -23,7 +23,7 @@ public class HillClimbing
             // perform a small change toward the new solution
            
 
-            // If tne new solution is better than the current solution, we copy the solution from the new one
+            // If tne new solution is better than the current solution, we copy the solution from the new one to the current solution
            
         }
             Console.WriteLine("Final solution ");
@@ -34,7 +34,7 @@ public class HillClimbing
     public Scales smallChange(Scales newSol, int n)
     {
         // Complete your method for small change
-        
+
         newSol.calculateFitness();
         return newSol;
     }
