@@ -36,6 +36,7 @@ public class ReadWriteFile
         }
     }
 
+    // This method is used to save iterations, current fitness value, new fitness value to a CSV file
     public static void writeResults<T>(T [,] results, string filename)
     {
         using (StreamWriter sw = new StreamWriter(filename))
@@ -56,6 +57,7 @@ public class ReadWriteFile
         }
     }
 
+    // This method is used to save the solutions to a CSV file
     public static void writeSolutions(List<List<int>> solutions, string filename)
     {
         using(StreamWriter sw = new StreamWriter(filename))
