@@ -34,5 +34,8 @@ public class HillClimbing
     public Scales smallChange(Scales newSol, int n)
     {
         // Complete your method for small change
+        
+        newSol.calculateFitness();
+        return newSol;
     }
 }
